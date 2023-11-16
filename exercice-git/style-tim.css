@@ -88,16 +88,20 @@ section {
   margin: auto;
 }
 
-footer,
+footer
+{
+  width: 1440px;
+  height: 206px;
+  top: 2449px;
+  left: -2px;
+  background-color: #1F2039;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 1440px;
-  height: 206px;
-  top: 2449px;
-  left: -2px;
 }
 
 nav a {
